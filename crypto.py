@@ -1,4 +1,6 @@
-from lib import module
+import cryptomath, detectEnglish, freqAnalysis, makeWordPatterns, paperclip, wordPatterns
+import os, re, sys
+#from module import cryptomath, detectEnglish, freqAnalysis, makeWordPatterns, paperclip, wordPattern
 print('choose a number: ')
 print("""
 1- Ceasar cipher
